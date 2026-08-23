@@ -1,0 +1,1 @@
+﻿# SINTEZ Ontology Mathematics
