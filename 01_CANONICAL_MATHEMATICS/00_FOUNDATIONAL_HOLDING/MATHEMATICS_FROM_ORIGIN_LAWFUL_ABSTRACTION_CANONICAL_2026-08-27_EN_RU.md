@@ -7,6 +7,7 @@
 **Repository role:** Foundational mathematics / canonical bridge from ontology to mathematical abstraction  
 **Classical-mathematics firewall:** No classical mathematical object or theorem is used as a source of derivation.  
 **Provenance rule:** This document consolidates and repairs already derived results. It does not retroactively rewrite the historical research lineage.
+**Revision:** 2026-08-27 — suppression / pseudomorphosis typing correction.
 
 ---
 
@@ -252,18 +253,9 @@ This does not mean that \(\Delta\) ceases to exist ontologically. It means only 
 
 ---
 
-## 8. Pseudomorphosis criterion
+## 8. Suppression boundary and pseudomorphic stabilization
 
-If a Difference is suspended from a mathematical representation while it remains necessary for the retained Relation, invariant, truth, or operation, the representation has removed something it still depends on.
-
-This is pseudomorphosis:
-
-\[
-\boxed{
-Pseudomorphosis=
-\text{suspension of a Difference that remains operative for the retained mathematical form}.
-}
-\]
+If a Difference \(\Delta\) remains operative for the retained Relation, invariant, truth, or licensed operation, then removing its operational projection is **not** a lawful abstraction relative to that retained structure.
 
 Therefore:
 
@@ -271,11 +263,59 @@ Therefore:
 \boxed{
 Op_R(\Delta)=1
 \Rightarrow
-\Delta\text{ cannot be lawfully suspended in horizon }R.
+\Delta\text{ cannot be lawfully suspended by }A_R.
 }
 \]
 
-**Status: DERIVED.**
+The action by which an operative Difference is deprived of operativity in a selected narrower horizon is typed here as **suppression**, not as pseudomorphosis itself.
+
+Let \(W\) be a richer retained whole and \(\mathcal H_S\) a selected stabilization horizon. If:
+
+\[
+\boxed{
+Op_W(\Delta)=1,
+\qquad
+Op_{\mathcal H_S}(\Delta)=0,
+}
+\]
+
+and the resulting form \(\widetilde W\) stabilizes in that horizon:
+
+\[
+\boxed{
+Stable_{\mathcal H_S}(\widetilde W)=1,
+}
+\]
+
+then the resulting stabilized regime may be typed as pseudomorphic:
+
+\[
+\boxed{
+Pseudo_W(\widetilde W;\Delta,\mathcal H_S)=1.
+}
+\]
+
+Hence:
+
+\[
+\boxed{
+\text{suppression is an action/transition;}
+\qquad
+\text{pseudomorphosis is a stabilization-state/regime}.
+}
+\]
+
+The pseudomorphic state is Difference-typed and horizon-typed. If the relevant Difference changes,
+
+\[
+\Delta_1\rightsquigarrow\Delta_2,
+\]
+
+the pseudomorphic status does not transfer automatically. Operativity and stabilization must be tested again for \(\Delta_2\) in the new retained configuration.
+
+Thus unlawful suspension is not by itself pseudomorphosis. It may produce pseudomorphic stabilization only if the resulting form stabilizes while the suppressed Difference remains necessary to the richer retained whole.
+
+**Status: DERIVED / TYPING CORRECTION.**
 
 ---
 
@@ -523,7 +563,9 @@ X=_{\mathcal H_R}Y,
 Y=_{\mathcal H_R}Z,
 \]
 
-but \(X\) and \(Z\) remain operationally distinguishable inside the same horizon, the abstraction has suspended a Difference that its own internal operations still require. That is pseudomorphosis.
+but \(X\) and \(Z\) remain operationally distinguishable inside the same horizon, then the proposed abstraction/equality has suspended a Difference that its own internal operations still require. Therefore that abstraction/equality is not lawful in \(\mathcal H_R\).
+
+This failure is not, by itself, pseudomorphosis. If the coarse representation nevertheless stabilizes in a narrower horizon while the suppressed Difference remains necessary to the richer retained structure, that stabilized regime may be pseudomorphic according to Section 8.
 
 Therefore:
 
@@ -964,18 +1006,9 @@ R(X)\not\simeq_R R(A^R_{\neg\Delta}(X)).
 
 ---
 
-## 8. Критерий pseudomorphosis
+## 8. Граница suppression и pseudomorphic stabilization
 
-Если Difference снят из математического представления, но по-прежнему необходим для retained Relation, invariant, truth или operation, представление удалило то, от чего само продолжает зависеть.
-
-Это pseudomorphosis:
-
-\[
-\boxed{
-Pseudomorphosis=
-\text{снятие Difference, который остаётся операционально необходимым для retained mathematical form}.
-}
-\]
+Если Difference \(\Delta\) остаётся операциональным для retained Relation, invariant, truth или licensed operation, то снятие его operational projection **не является** законной abstraction относительно этой retained structure.
 
 Следовательно:
 
@@ -983,11 +1016,59 @@ Pseudomorphosis=
 \boxed{
 Op_R(\Delta)=1
 \Rightarrow
-\Delta\text{ нельзя законно снять в horizon }R.
+\Delta\text{ нельзя законно снять посредством }A_R.
 }
 \]
 
-**Статус: DERIVED.**
+Действие, при котором operative Difference лишается operativity в выбранном более узком horizon, типизируется здесь как **suppression**, а не как pseudomorphosis само по себе.
+
+Пусть \(W\) — более богатая retained whole, а \(\mathcal H_S\) — выбранный stabilization horizon. Если:
+
+\[
+\boxed{
+Op_W(\Delta)=1,
+\qquad
+Op_{\mathcal H_S}(\Delta)=0,
+}
+\]
+
+и результирующая форма \(\widetilde W\) стабилизируется в этом horizon:
+
+\[
+\boxed{
+Stable_{\mathcal H_S}(\widetilde W)=1,
+}
+\]
+
+тогда получившийся устойчивый режим может быть типизирован как pseudomorphic:
+
+\[
+\boxed{
+Pseudo_W(\widetilde W;\Delta,\mathcal H_S)=1.
+}
+\]
+
+Следовательно:
+
+\[
+\boxed{
+\text{suppression — действие/переход;}
+\qquad
+\text{pseudomorphosis — состояние/режим stabilization}.
+}
+\]
+
+Pseudomorphic state типизирован Difference и horizon. Если релевантная Difference меняется:
+
+\[
+\Delta_1\rightsquigarrow\Delta_2,
+\]
+
+pseudomorphic status не переносится автоматически. Operativity и stabilization должны быть заново проверены для \(\Delta_2\) в новой retained configuration.
+
+Следовательно, незаконное снятие само по себе ещё не является pseudomorphosis. Оно может породить pseudomorphic stabilization только в том случае, если результирующая форма стабилизируется при Difference, остающейся необходимой более богатой retained whole.
+
+**Статус: DERIVED / TYPING CORRECTION.**
 
 ---
 
@@ -1229,7 +1310,9 @@ X=_{\mathcal H_R}Y,
 Y=_{\mathcal H_R}Z,
 \]
 
-но \(X\) и \(Z\) всё ещё операционно различимы внутри того же horizon, abstraction сняла Difference, который её собственные operations продолжают требовать. Это pseudomorphosis.
+но \(X\) и \(Z\) всё ещё операционно различимы внутри того же horizon, значит предлагаемая abstraction/equality сняла Difference, который её собственные operations продолжают требовать. Следовательно, такая abstraction/equality незаконна в \(\mathcal H_R\).
+
+Это нарушение само по себе ещё не является pseudomorphosis. Если грубое представление всё же стабилизируется в более узком horizon при Difference, остающейся необходимой более богатой retained structure, такой stabilized regime может быть pseudomorphic согласно разделу 8.
 
 Следовательно:
 
